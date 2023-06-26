@@ -5,19 +5,47 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
   },
-  image: {
+  containerEnd: {
     flex: 1,
-    justifyContent: 'center',
+    marginTop: '60%',
+    alignItems: 'center',
+  },
+  backgroundImage: {
+    flex: 1,
+    alignItems: 'center',
     width: '100%',
     height: '100%',
   },
-  text: {
+  textBold: {
     color: 'white',
-    fontSize: 42,
-    lineHeight: 84,
+    fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',
-    backgroundColor: '#000000c0',
+  },
+  text: {
+    color: 'white',
+    fontSize: 15,
+    lineHeight: 44,
+    textAlign: 'center',
+    top: 35
+  },
+  btn: {
+    color: 'white',
+    fontSize: 15,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    buttom:0
+  },
+  logoImg: {
+    justifyContent: 'center',
+    width: 70,
+    height: 70,
+  },
+  logoTxtImg: {
+    justifyContent: 'center',
+    width: 250,
+    height: 50,
+    top: 15
   },
 };
 
