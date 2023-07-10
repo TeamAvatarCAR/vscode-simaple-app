@@ -29,7 +29,7 @@ const styles = {
     marginBottom: 10,
   },
   buttonContainer: {
-    flex: 1,
+    // flex: 1,
     marginHorizontal: 5,
     top: 10,
   },
@@ -41,17 +41,31 @@ const styles = {
     height: '100%',
   },
   textBold: {
-    color: 'white',
+    color: 'black',
     fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',
   },
   text: {
-    color: 'white',
+    color: 'black',
     fontSize: 15,
     lineHeight: 44,
     textAlign: 'center',
     top: 35
+  },
+  textBeforeLink: {
+    color: 'black',
+    fontSize: 15,
+    lineHeight: 44,
+    textAlign: 'center',
+    top: 5
+  },
+  textLink: {
+    color: 'blue',
+    fontSize: 15,
+    lineHeight: 44,
+    textAlign: 'center',
+    top: 5
   },
   btn: {
     color: 'white',
@@ -65,12 +79,6 @@ const styles = {
     fontSize: 15,
     fontWeight: 'bold',
     padding: 18,
-    // textAlign: 'center',
-    // padding:10,
-    // flex:2,
-    // padding:10,
-    // alignSelf: 'flex-start',
-    // buttom:0
   },
   logoImg: {
     justifyContent: 'center',

@@ -3,7 +3,7 @@ import React from 'react';
 import {Button, Image, ImageBackground, StyleSheet, Text, View } from 'react-native';
 import styles from './AppStyles';
 
-const image = {uri: 'https://legacy.reactjs.org/logo-og.png'};
+const image = {uri: 'https://www.pinterest.de/pin/327707310381126648/?send=true'};
 
 export default function App() {
   return (
@@ -17,16 +17,12 @@ export default function App() {
             <Button style={styles.btn} title="Create Taturu Account" color={'#ffa500'}/> 
             <View style={styles.containerRow}>
               <View style={styles.buttonContainer}>
-                <Button title="Create" color="#ffa500" />
+                <Text style={styles.textBeforeLink}>Already A Member?</Text>
               </View>
               <View style={styles.buttonContainer}>
-                <Button title="Account" color="#ffa500" />
+                <Text style={styles.textLink}>Log In</Text>
               </View>
             </View> 
-            {/* <View style={styles.containerRow}>
-              <Button style={styles.btntry} title="Create " color={'#ffa500'}/>  
-              <Button style={styles.btntry} title="Account" color={'#ffa500'}/> 
-            </View> */}
         </View>
       </ImageBackground>
     </View>
