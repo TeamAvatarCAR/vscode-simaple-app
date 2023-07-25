@@ -2,13 +2,16 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import {Button, Image, ImageBackground, StyleSheet, Text, View } from 'react-native';
 import styles from './AppStyles';
+import MainPage from './AppPages/MainPage/MainPage'
+import LoginPage from './AppPages/LogInPage/Login'
 
 const image = {uri: 'https://www.pinterest.de/pin/327707310381126648/?send=true'};
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ImageBackground source={image} resizeMode="cover" style={styles.backgroundImage}>
+      <MainPage/>
+      {/* <ImageBackground source={image} resizeMode="cover" style={styles.backgroundImage}>
         <Image source={require('./photos/explode.png')} resizeMode="center" style={styles.logoImg}></Image>
         <Text style={styles.textBold}>Welcome To</Text>
         <Image source={require('./photos/logotxt.png')} resizeMode="center" style={styles.logoTxtImg}></Image>
@@ -24,7 +27,7 @@ export default function App() {
               </View>
             </View> 
         </View>
-      </ImageBackground>
+      </ImageBackground> */}
     </View>
   );
 }
